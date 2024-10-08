@@ -1,0 +1,6 @@
+a = float(input())
+b = float(input())
+p = (a + b + a + b)
+s = (a * b)
+print("P =",p)
+print("S =",s)
