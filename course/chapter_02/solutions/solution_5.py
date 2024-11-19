@@ -1,9 +1,11 @@
 a = int(input())
-if 100 >= a >= 90:
+if 90 <= a <= 100:
     print("Отлично")
 elif 75 <= a < 89:
-    print("Хорошо"`)
+    print("Хорошо")
 elif 50 <= a < 74:
     print("Удовлетворительно")
-else:
+elif 0 <= a < 49: 
     print("Неудовлетворительно")
+else:
+    print()
